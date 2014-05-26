@@ -42,9 +42,9 @@ var config = {
 	 * Stores all color matchers
 	 */
 	color:			{
-		debug:			new RegExp ('\\[(DEBUG|FINE(ST)?)\\]', 'i'),
-		error:			new RegExp ('\\[ERROR\\]', 'i'),
-		warning:		new RegExp ('\\[WARN(ING)?\\]', 'i')
+		debug:			new RegExp ('\\[(.*)?(DEBUG|FINE(ST)?)\\]', 'i'),
+		error:			new RegExp ('\\[(.*)?ERROR\\]', 'i'),
+		warning:		new RegExp ('\\[(.*)?WARN(ING)?\\]', 'i')
 	},
 
 	/**
