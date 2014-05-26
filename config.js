@@ -50,7 +50,7 @@ var config = {
 	/**
 	 * Defines
 	 */
-	playbackBuffer:		10,
+	playbackBuffer:		50,
 
 	/**
 	 * Defines the file poll interval.
