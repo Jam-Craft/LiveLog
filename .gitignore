@@ -13,3 +13,4 @@ out/
 node_modules/
 test*.txt
 server/
+static/style/client.css
