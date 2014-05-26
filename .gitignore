@@ -1,0 +1,14 @@
+#################
+# IntelliJ Idea #
+#################
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+########
+# Node #
+########
+node_modules/
+test*.txt
