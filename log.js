@@ -27,7 +27,7 @@ var fileHashes = { };
 
 // create server
 var application = express ();
-var httpServer = application.listen (config.port);
+var httpServer = application.listen (config.port, config.hostname);
 var io = socketIO.listen (httpServer);
 
 // configure server

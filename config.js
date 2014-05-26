@@ -15,6 +15,12 @@
  */
 var config = {
 	/**
+	 * Defines the application bind hostname.
+	 * @var			string
+	 */
+	'hostname':		undefined,
+
+	/**
 	 * Defines the application port.
 	 * @var			integer
 	 */
